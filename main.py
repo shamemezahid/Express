@@ -36,7 +36,7 @@ while True:
             label_position = (x,y)
             # display results
             cv2.putText(frame,label,label_position,cv2.FONT_HERSHEY_SIMPLEX,1,(0,255,0),2)
-            cv2.putText(frame,qoute,(10,20),cv2.FONT_HERSHEY_SIMPLEX,1,(0,255,255),2)
+            cv2.putText(frame,qoute,(200,450),cv2.FONT_HERSHEY_SIMPLEX,1,(0,255,255),2)
             
         else:
             cv2.putText(frame,'No Faces',(30,80),cv2.FONT_HERSHEY_SIMPLEX,1,(0,255,0),2)
